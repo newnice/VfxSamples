@@ -6,14 +6,15 @@
 #include "GameFramework/PlayerController.h"
 #include "CustomPlayerController.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class VFXSAMPLES_API ACustomPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
 protected:
+
+	void Shoot();
 	virtual void SetupInputComponent() override;
+public:
+	ACustomPlayerController();
 };

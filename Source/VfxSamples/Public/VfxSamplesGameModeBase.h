@@ -13,5 +13,4 @@ UCLASS()
 class VFXSAMPLES_API AVfxSamplesGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };
